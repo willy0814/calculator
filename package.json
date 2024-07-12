@@ -1,6 +1,6 @@
 {
-	"name": "mini lotto",
-	"author": "sanko",
+	"name": "Calculator",
+	"author": "William Jang",
 	"version": "1.0.0",
 	"scripts": {
 		"start": "webpack-dev-server --mode development --open --hot --port 3000",
