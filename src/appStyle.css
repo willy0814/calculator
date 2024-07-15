@@ -1,0 +1,49 @@
+section{
+    height:300px;
+    width: 300px;
+    border:1px solid black;
+    border-radius: 100%;
+    position:relative;
+}
+
+section .numba{
+    background: #ffffff;
+    color: #155674;
+    border-radius: 50%;
+    position: absolute;
+    transform-origin: 0 139px;
+    margin-left: 150px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+section .seconds{
+    position: absolute;
+    width: 2px;
+    height: 120px;
+    border: 1px solid black;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+
+section .minutes{
+    position: absolute;
+    width: 4px;
+    height: 100px;
+    border: 2px solid black;
+    margin-left: 150px;
+    margin-top: 110px;
+}
+
+section .hours{
+    position: absolute;
+    width: 6px;
+    height: 80px;
+    border: 3px solid black;
+    margin-left: 150px;
+    margin-top: 130px;
+}
